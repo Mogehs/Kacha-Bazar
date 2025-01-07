@@ -1,0 +1,144 @@
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.carousel-text {
+  position: absolute !important;
+  top: 12vw !important;
+  width: 40vw;
+  margin-left: 9vw !important;
+}
+.carousel-text h1 {
+  font-size: 3vw !important;
+  font-weight: bolder !important;
+}
+
+.carousel-text p {
+  font-size: 2vw !important;
+}
+.caorusel-container {
+  height: 87.4vh;
+}
+
+.products-container {
+  width: 98.4vw !important;
+  height: "screen" !important;
+  margin-top: 2rem !important;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem !important;
+}
+
+.products-cards .card {
+  width: 18rem !important;
+}
+
+.products-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem !important;
+}
+
+.explore-more {
+  width: fit-content;
+  cursor: pointer;
+}
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+  .caorusel-container {
+    height: 30.4vh;
+  }
+  .products-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .caorusel-container {
+    height: 50.4vh;
+  }
+  .products-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .products-cards .cards {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .caorusel-container {
+    height: 80.4vh;
+  }
+}
+.hero2-heading {
+  background-color: #198754;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1rem !important;
+  width: fit-content;
+  position: relative;
+  top: 20%;
+  left: 10%;
+}
+.hero2-p {
+  position: relative;
+  width: fit-content;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  background-color: wheat;
+  border-radius: 0.5rem;
+  padding: 0.4rem !important;
+  margin-top: 0.3rem !important;
+  top: 20%;
+  left: 10%;
+}
+
+@media (max-width: 575.98px) {
+  .hero2-p {
+    font-size: 0.6rem;
+  }
+  .hero2-heading {
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem !important;
+  }
+}
+
+.footer {
+  display: flex;
+  margin-left: 10rem !important;
+  align-items: center;
+  justify-content: center;
+  gap: 20vw;
+}
+.icons {
+  margin-left: 8rem !important;
+}
+
+.hr {
+  margin-left: 8rem !important;
+}
+
+.copyright {
+  margin-left: 5rem !important;
+}
+
+.auth-btn {
+  background: white !important;
+}
+
+.auth-btn a {
+  font-weight: bold;
+  color: #198754 !important;
+}
