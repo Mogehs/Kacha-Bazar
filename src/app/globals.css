@@ -142,3 +142,42 @@
   font-weight: bold;
   color: #198754 !important;
 }
+
+.about-section {
+  gap: 3.5rem;
+}
+
+.about-section .left-section {
+  width: 49vw;
+}
+.about-section .right-section {
+  width: 45vw;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .about-section {
+    flex-wrap: wrap;
+    gap: 0rem;
+  }
+  .about-section .left-section {
+    width: 100vw;
+  }
+  .about-section .right-section {
+    width: 100vw;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .about-section {
+    flex-wrap: wrap;
+    gap: 0rem;
+  }
+  .about-section .left-section {
+    width: 100vw;
+  }
+  .about-section .right-section {
+    width: 100vw;
+    margin-top: 0;
+  }
+}

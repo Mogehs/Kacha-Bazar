@@ -1,67 +1,68 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary ">
-      <div className="container-fluid bg-success p-3  ">
-        <a className="text-white navbar-brand" href="/">
-          <img src="/logo.svg" alt="" />
-        </a>
+      <div className="container-fluid bg-success p-3 px-5  ">
+        <Link className="text-white navbar-brand" href="/">
+          <img src="/logo.svg" alt="" width={130} />
+        </Link>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
             <li className="nav-item">
-              <a
+              <Link
                 className="text-white p-2 nav-link active"
                 aria-current="page"
                 href="/home"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="text-white p-2 nav-link" href="/products">
+              <Link className="text-white p-2 nav-link" href="/products">
                 Products
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="text-white p-2 nav-link"
                 aria-disabled="true"
                 href="/about-us"
               >
                 About Us
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="text-white p-2 nav-link"
                 aria-disabled="true"
                 href="/contact-us"
               >
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
           <form className="d-flex" role="search">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-5 gap-1">
               <li className="nav-item btn auth-btn">
-                <a
+                <Link
                   className="text-white p-2 nav-link"
                   aria-disabled="true"
                   href="/sign-up"
                 >
                   Sign Up
-                </a>
+                </Link>
               </li>
               <li className="nav-item btn auth-btn">
-                <a
+                <Link
                   className="text-white p-2 nav-link"
                   aria-disabled="true"
                   href="/log-in"
                 >
                   Log In
-                </a>
+                </Link>
               </li>
             </ul>
           </form>
