@@ -5,9 +5,6 @@ const Products = () => {
   return (
     <>
       <div className="products-container">
-        {/* <div className="text-center">
-          <h1 className="text-uppercase">Check Out Some On Sale Products</h1>
-        </div> */}
         <div className="products-cards">
           {cards.map((item) => {
             return (
@@ -33,10 +30,6 @@ const Products = () => {
             );
           })}
         </div>
-        <div className="text-center explore-more btn btn-success mx-auto p-2">
-          Explore more
-        </div>
-        <hr className="mx-auto w-75" />
       </div>
     </>
   );
